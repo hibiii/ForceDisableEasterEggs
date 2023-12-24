@@ -9,7 +9,7 @@ dependencies {
 }
 
 processResources {
-    filesMatching('quilt.mod.json') {
+    filesMatching(['quilt.mod.json', 'fabric.mod.json']) {
         expand (
             'mod_version': project.version,
             'minecraft_version': project.deps_minecraft,

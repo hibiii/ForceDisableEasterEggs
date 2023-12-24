@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "forcedisableeastereggs",
+    "version": "${mod_version}",
+    "entrypoints": {
+        "client": [
+            "hibi.forcedisableeastereggs.Main::initializeClient"
+        ]
+    },
+    "mixins": [
+        "forcedisableeastereggs.mixins.json"
+    ],
+    "depends": {
+        "minecraft": "^${minecraft_version}"
+    },
+    "name": "Force Disable Easter Eggs",
+    "description": "A mod to disable easter eggs in places that do not have an option to disable said easter eggs. (This mod loader is unsupported.)",
+    "authors": [
+        "hibi"
+    ],
+    "license": "MIT"
+}
