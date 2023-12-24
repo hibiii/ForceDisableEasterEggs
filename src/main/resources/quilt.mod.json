@@ -1,0 +1,12 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "hibiscvs",
+        "id": "forcedisableeastereggs",
+        "version": "${mod_version}",
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "entrypoints": {
+            "client": "hibi.forcedisableeastereggs.Main::initializeClient"
+        }
+    }
+}
