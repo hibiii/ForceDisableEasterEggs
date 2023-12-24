@@ -4,9 +4,27 @@
         "group": "hibiscvs",
         "id": "forcedisableeastereggs",
         "version": "${mod_version}",
+        "depends": [
+            {
+                "id": "minecraft",
+                "versions": "^${minecraft_version}"
+            }
+        ],
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
             "client": "hibi.forcedisableeastereggs.Main::initializeClient"
+        },
+        "metadata": {
+            "name": "Force Disable Easter Eggs",
+            "description": "A mod to disable easter eggs in places that do not have an option to disable said easter eggs.",
+            "contributors": {
+                "hibi": "Owner"
+            },
+            "license": "MIT",
+            "icon": "assets/forcedisableeastereggs/icon.png",
+            "contact": {
+                "sources": "https://github.com/hibiii/ForceDisableEasterEggs"
+            }
         }
     },
     "mixin": [
