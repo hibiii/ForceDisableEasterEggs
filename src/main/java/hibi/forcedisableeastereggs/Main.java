@@ -8,6 +8,6 @@ public class Main {
     public static Logger LOGGER = LoggerFactory.getLogger("ForceDisableEasterEggs");
 
     public void initializeClient() {
-        LOGGER.info("hello, world");
+        LOGGER.info("hello, splashes");
     }
 }

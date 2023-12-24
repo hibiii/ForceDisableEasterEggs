@@ -8,5 +8,8 @@
         "entrypoints": {
             "client": "hibi.forcedisableeastereggs.Main::initializeClient"
         }
-    }
+    },
+    "mixin": [
+        "forcedisableeastereggs.mixins.json"
+    ]
 }
