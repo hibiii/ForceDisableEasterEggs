@@ -6,7 +6,8 @@
     "client": [
         "ChestBlockEntityRendererMixin",
         "SplashTextResourceSupplierMixin",
-        "RecipeBookWidgetMixin"
+        "RecipeBookWidgetMixin",
+        "LivingEntityRendererMixin"
     ],
     "injectors": {
         "defaultRequire": 1
