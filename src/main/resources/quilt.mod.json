@@ -23,7 +23,8 @@
             "license": "MIT",
             "icon": "assets/forcedisableeastereggs/icon.png",
             "contact": {
-                "sources": "https://github.com/hibiii/ForceDisableEasterEggs"
+                "sources": "https://github.com/hibiii/ForceDisableEasterEggs",
+                "issues": "https://github.com/hibiii/ForceDisableEasterEggs/issues"
             }
         }
     },
