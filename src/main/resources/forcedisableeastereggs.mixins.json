@@ -10,7 +10,8 @@
         "LivingEntityRendererMixin",
         "EntityRendererMixin",
         "EvokerEntityMixin",
-        "LogoRendererMixin"
+        "LogoRendererMixin",
+        "SheepWoolFeatureRendererMixin"
     ],
     "injectors": {
         "defaultRequire": 1
