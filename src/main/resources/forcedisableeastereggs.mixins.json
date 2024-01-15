@@ -11,7 +11,8 @@
         "EntityRendererMixin",
         "EvokerEntityMixin",
         "LogoRendererMixin",
-        "SheepWoolFeatureRendererMixin"
+        "SheepWoolFeatureRendererMixin",
+        "ItemStackMixin"
     ],
     "injectors": {
         "defaultRequire": 1
