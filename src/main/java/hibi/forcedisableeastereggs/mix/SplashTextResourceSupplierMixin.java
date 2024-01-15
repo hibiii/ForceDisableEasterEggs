@@ -7,6 +7,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
 import net.minecraft.client.resource.SplashTextResourceSupplier;
+import net.minecraft.util.random.RandomGenerator;
 
 @Mixin(SplashTextResourceSupplier.class)
 public class SplashTextResourceSupplierMixin {
@@ -18,6 +19,18 @@ public class SplashTextResourceSupplierMixin {
         )
     )
     int disableDates(Calendar that, int _1) {
+        return Integer.MIN_VALUE;
+    }
+
+    @Redirect(
+        method = "get",
+        at = @At(
+            value = "INVOKE",
+            target = "Lnet/minecraft/util/random/RandomGenerator;nextInt(I)I",
+            ordinal = 0
+        )
+    )
+    int disableUsernameSplash(RandomGenerator that, int _1) {
         return Integer.MIN_VALUE;
     }
 }
