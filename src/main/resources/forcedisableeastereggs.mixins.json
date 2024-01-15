@@ -9,7 +9,8 @@
         "RecipeBookWidgetMixin",
         "LivingEntityRendererMixin",
         "EntityRendererMixin",
-        "EvokerEntityMixin"
+        "EvokerEntityMixin",
+        "LogoRendererMixin"
     ],
     "injectors": {
         "defaultRequire": 1
