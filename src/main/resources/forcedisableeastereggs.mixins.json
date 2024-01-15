@@ -7,7 +7,8 @@
         "ChestBlockEntityRendererMixin",
         "SplashTextResourceSupplierMixin",
         "RecipeBookWidgetMixin",
-        "LivingEntityRendererMixin"
+        "LivingEntityRendererMixin",
+        "EntityRendererMixin"
     ],
     "injectors": {
         "defaultRequire": 1
