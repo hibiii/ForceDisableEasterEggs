@@ -4,7 +4,7 @@ plugins {
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.deps_minecraft}"
-    mappings "org.quiltmc:quilt-mappings:${project.deps_mappings}"
+    mappings "org.quiltmc:quilt-mappings:${project.deps_mappings}:intermediary-v2"
     modImplementation "org.quiltmc:quilt-loader:${project.deps_loader}"
 }
 

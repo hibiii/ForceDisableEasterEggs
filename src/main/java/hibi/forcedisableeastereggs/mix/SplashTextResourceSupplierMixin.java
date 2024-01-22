@@ -33,4 +33,16 @@ public class SplashTextResourceSupplierMixin {
     int disableUsernameSplash(RandomGenerator that, int _1) {
         return Integer.MIN_VALUE;
     }
+
+    @Redirect(
+        method = "m_dhjeeeti(Ljava/lang/String;)Z",
+        /// Lambda of `prepare`
+        at = @At(
+            value = "INVOKE",
+            target = "Ljava/lang/String;hashCode()I"
+        )
+    )
+    private static int disableDisqualification(String that) {
+        return 0;
+    }
 }
