@@ -14,7 +14,8 @@
         "SheepWoolFeatureRendererMixin",
         "ItemStackMixin",
         "ZombieEntityMixin",
-        "CrashReportMixin"
+        "CrashReportMixin",
+        "ProfileResultImplMixin"
     ],
     "injectors": {
         "defaultRequire": 1
