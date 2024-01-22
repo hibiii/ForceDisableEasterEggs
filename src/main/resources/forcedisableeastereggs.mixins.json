@@ -13,7 +13,8 @@
         "LogoRendererMixin",
         "SheepWoolFeatureRendererMixin",
         "ItemStackMixin",
-        "ZombieEntityMixin"
+        "ZombieEntityMixin",
+        "CrashReportMixin"
     ],
     "injectors": {
         "defaultRequire": 1
