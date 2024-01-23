@@ -1,6 +1,6 @@
 # Force Disable Easter Eggs
 
-This is a Minecraft mod for Quilt (/Fabric) to disable easter eggs that do not have an explicit option or setting to disable them. Designed for Quilt 1.20.1, untested in later versions.
+This is a Minecraft mod for Quilt (/Fabric) to disable easter eggs that do not have an explicit option or setting to disable them. Designed for Quilt 1.20.1, works in 1.20.2 and 1.20.4.
 
 Licensed under MIT.
 
@@ -20,15 +20,10 @@ Currently, the following easter eggs are disabled:
 - "Minceraft" logo on title screen
 - Animated rainbow color for sheep wool
 - `missingno` as an error message in item tooltips
-
-### Easter Eggs yet to be removed
-
-The following easter eggs are considered for removal:
-
+- Disqualification of `This message will never appear on the splash screen, isn't that weird?` splash text
+- Unobtainable, Halloween-only pumpkins and jack-o-lanterns on the heads of zombies
 - Splash texts in crash logs ("witty comments")
 - Splash texts in profile results
-- Disqualification of `This message will never appear on the splash screen, isn't that weird?` splash text
-- Halloween-only timed drops from mobs
 
 ### Easter Eggs to be kept
 
